@@ -34,9 +34,10 @@ def preprocesing(lines:list) -> list:
         x = x.lower() #Text preveden na mala pismena
         x = x.replace("\n","") #Odstraneni odradkovani
         x = x.replace("\ufeff", "") #Odstraneni pocatecni znacky textu
-        x = x.replace(",", ", #") #interpunkce nahrazeny #
+        x = x.replace(",", ", # ") #interpunkce nahrazeny #
         x = x.replace(".",". $") #Pocatky a konce vet nahrazeny za znacky |$|
-        x = "|$|" + x + "|\n"
+        x = x.replace("?","? $") #Pocatky a konce vet nahrazeny za znacky |$|
+        x = "$ " + x + "\n"
         p_list.append(x)
         
     return p_list
