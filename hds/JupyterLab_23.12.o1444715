@@ -1,0 +1,1907 @@
+dcifka20
+Copying /storage/plzen4-ntis/projects/singularity/tensorflow23.12-r3.simg to local scratch (started Mon May  6 13:40:58 CEST 2024)
+Copying /storage/plzen4-ntis/projects/singularity/tensorflow23.12-r3.simg to local scratch (done Mon May  6 13:43:02 CEST 2024)
+1444715.pbs-m1.metacentrum.cz singularity started on fer2.natur.cuni.cz
+[W 2024-05-06 13:43:05.040 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2024-05-06 13:43:05.144 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-05-06 13:43:05.154 ServerApp] jupyter_collaboration | extension was successfully linked.
+[I 2024-05-06 13:43:05.154 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-05-06 13:43:05.163 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-05-06 13:43:05.172 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-05-06 13:43:05.183 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-05-06 13:43:05.183 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2024-05-06 13:43:05.184 ServerApp] Writing Jupyter server cookie secret to /scratch.ssd/dcifka20/job_1444715.pbs-m1.metacentrum.cz/jupyter-runtime/jupyter_cookie_secret
+[I 2024-05-06 13:43:05.816 ServerApp] Extension package jupyter_tensorboard took 0.1208s to import
+[W 2024-05-06 13:43:05.816 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_tensorboard. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-05-06 13:43:05.816 ServerApp] jupyter_tensorboard | extension was found and enabled by notebook_shim. Consider moving the extension to Jupyter Server's extension paths.
+[I 2024-05-06 13:43:05.816 ServerApp] jupyter_tensorboard | extension was successfully linked.
+[I 2024-05-06 13:43:05.817 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-05-06 13:43:05.850 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-05-06 13:43:05.855 ServerApp] jupyter_collaboration | extension was successfully loaded.
+[I 2024-05-06 13:43:05.859 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-05-06 13:43:05.860 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-05-06 13:43:05.860 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /auto/plzen4-ntis/home/dcifka20
+[I 2024-05-06 13:43:05.860 FileIdExtension] ArbitraryFileIdManager : Configured database path: /storage/plzen4-ntis/home/dcifka20/.local-tensorflow23.12-r3.simg/file_id_manager.db
+[I 2024-05-06 13:43:05.871 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-05-06 13:43:05.871 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-05-06 13:43:05.915 FileIdExtension] Attached event listeners.
+[I 2024-05-06 13:43:05.916 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-05-06 13:43:05.919 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-05-06 13:43:06.896 ServerApp] jupyter_tensorboard extension loaded.
+[I 2024-05-06 13:43:06.896 ServerApp] jupyter_tensorboard | extension was successfully loaded.
+[I 2024-05-06 13:43:06.903 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.10/dist-packages/jupyterlab
+[I 2024-05-06 13:43:06.904 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2024-05-06 13:43:06.904 LabApp] Extension Manager is 'pypi'.
+[I 2024-05-06 13:43:06.909 ServerApp] jupyterlab | extension was successfully loaded.
+[W 2024-05-06 13:43:06.909 ServerApp] [Jupytext Server Extension] Async contents managers like AsyncLargeFileManager are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2024-05-06 13:43:06.909 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2024-05-06 13:43:06.911 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2024-05-06 13:43:06.912 ServerApp] Serving notebooks from local directory: /auto/plzen4-ntis/home/dcifka20
+[I 2024-05-06 13:43:06.912 ServerApp] Jupyter Server 2.12.4 is running at:
+[I 2024-05-06 13:43:06.912 ServerApp] http://fer2.natur.cuni.cz:8888/lab?token=...
+[I 2024-05-06 13:43:06.912 ServerApp]     http://127.0.0.1:8888/lab?token=...
+[I 2024-05-06 13:43:06.912 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-05-06 13:43:06.972 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-05-06 13:43:38.271 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-06 13:43:42.419 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+[I 2024-05-06 13:43:42.717 YDocExtension] Creating FileLoader for: hds/E2E_VITS4_HDS.ipynb
+[I 2024-05-06 13:43:42.732 YDocExtension] Watching file: hds/E2E_VITS4_HDS.ipynb
+[I 2024-05-06 13:43:42.734 ServerApp] Initializing room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3
+[W 2024-05-06 13:43:42.923 ServerApp] Notebook hds/E2E_VITS4_HDS.ipynb is not trusted
+[I 2024-05-06 13:43:43.686 ServerApp] Content in room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3 loaded from the ystore SQLiteYStore
+[I 2024-05-06 13:43:43.715 ServerApp] Content in file hds/E2E_VITS4_HDS.ipynb is out-of-sync with the ystore SQLiteYStore
+[I 2024-05-06 13:43:43.743 ServerApp] Content in room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3 loaded from file hds/E2E_VITS4_HDS.ipynb
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Exception in callback _HandlerDelegate.execute.<locals>.<lambda>(<Task finishe...em's parent")>) at /usr/local/lib/python3.10/dist-packages/tornado/web.py:2438
+handle: <Handle _HandlerDelegate.execute.<locals>.<lambda>(<Task finishe...em's parent")>) at /usr/local/lib/python3.10/dist-packages/tornado/web.py:2438>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 2438, in <lambda>
+    fut.add_done_callback(lambda f: f.result())
+  File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+    result = await result
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 163, in get
+    return await super().get(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 273, in get
+    await self.ws_connection.accept_connection(self)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 863, in accept_connection
+    await self._accept_connection(handler)
+  File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+    await open_result
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 186, in open
+    await self.room.initialize()
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/rooms.py", line 146, in initialize
+    await self.ystore.encode_state_as_update(self.ydoc)
+  File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/ystore.py", line 119, in encode_state_as_update
+    update = ydoc.get_update()
+  File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+    return self._doc.get_update(state)
+pyo3_runtime.PanicException: Couldn't get item's parent
+[I 2024-05-06 13:43:43.775 ServerApp] Out-of-band changes. Overwriting the content in room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3
+[W 2024-05-06 13:43:43.824 ServerApp] Notebook hds/E2E_VITS4_HDS.ipynb is not trusted
+[I 2024-05-06 13:44:38.370 YDocExtension] Processed 13 Y patches in one minute
+[I 2024-05-06 13:44:38.370 YDocExtension] Connected Y users: 2
+[I 2024-05-06 13:44:45.486 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+[I 2024-05-06 13:44:45.540 ServerApp] Initializing room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3
+[W 2024-05-06 13:44:45.573 ServerApp] Notebook hds/E2E_VITS4_HDS.ipynb is not trusted
+[I 2024-05-06 13:44:45.995 ServerApp] Content in room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3 loaded from the ystore SQLiteYStore
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-942' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fec719780
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:45:38.371 YDocExtension] Processed 15 Y patches in one minute
+[I 2024-05-06 13:45:38.371 YDocExtension] Connected Y users: 4
+Task exception was never retrieved
+future: <Task finished name='Task-1615' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /usr/local/lib/python3.10/dist-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[W 2024-05-06 13:45:58.669 ServerApp] 404 GET /api/contents/storage/plzen4-ntis/home/dcifka20/hds/E2E_VITS4_HDS.ipynb?content=0&1714995975980 (fb601d4b767c4e268bf1b322cdb1a8ee@178.255.168.213) 11.00ms referer=http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3Ahds/E2E_VITS4_HDS.ipynb
+[W 2024-05-06 13:45:58.669 ServerApp] 404 GET /api/contents/storage/plzen4-ntis/home/dcifka20/hds/E2E_VITS4_HDS.ipynb?content=0&1714995975980 (178.255.168.213): file or directory does not exist: 'storage/plzen4-ntis/home/dcifka20/hds/E2E_VITS4_HDS.ipynb'
+Task exception was never retrieved
+future: <Task finished name='Task-1278' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe7707ca0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-1605' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fec772350
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[I 2024-05-06 13:46:08.593 ServerApp] Creating new notebook in /hds
+[I 2024-05-06 13:46:08.691 ServerApp] Saving Untitled.ipynb
+[I 2024-05-06 13:46:09.008 ServerApp] Request for Y document 'hds/Untitled.ipynb' with room ID: 1f82f531-b09f-4a77-8fde-10b0cd99ee2a
+[I 2024-05-06 13:46:09.091 YDocExtension] Creating FileLoader for: hds/Untitled.ipynb
+[I 2024-05-06 13:46:09.105 YDocExtension] Watching file: hds/Untitled.ipynb
+[I 2024-05-06 13:46:09.107 ServerApp] Initializing room json:notebook:1f82f531-b09f-4a77-8fde-10b0cd99ee2a
+[I 2024-05-06 13:46:09.299 ServerApp] Content in room json:notebook:1f82f531-b09f-4a77-8fde-10b0cd99ee2a loaded from file hds/Untitled.ipynb
+[I 2024-05-06 13:46:09.591 ServerApp] Kernel started: 23128ee7-0047-4e03-8642-0a8c68e0244b
+[I 2024-05-06 13:46:10.457 ServerApp] Connecting to kernel 23128ee7-0047-4e03-8642-0a8c68e0244b.
+[I 2024-05-06 13:46:10.519 ServerApp] Connecting to kernel 23128ee7-0047-4e03-8642-0a8c68e0244b.
+[W 2024-05-06 13:46:10.538 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x146fe71d6980>
+[I 2024-05-06 13:46:10.572 ServerApp] Connecting to kernel 23128ee7-0047-4e03-8642-0a8c68e0244b.
+[I 2024-05-06 13:46:11.614 ServerApp] Saving the content from room json:notebook:1f82f531-b09f-4a77-8fde-10b0cd99ee2a
+[I 2024-05-06 13:46:11.630 YDocExtension] Saving file: hds/Untitled.ipynb
+[I 2024-05-06 13:46:11.634 ServerApp] Saving Untitled.ipynb
+[I 2024-05-06 13:46:15.217 ServerApp] Starting buffering for 23128ee7-0047-4e03-8642-0a8c68e0244b:a34e34ed-af45-4e4a-8e5a-4897ed28af61
+[I 2024-05-06 13:46:15.219 ServerApp] Cleaning room: json:notebook:1f82f531-b09f-4a77-8fde-10b0cd99ee2a
+[W 2024-05-06 13:46:24.600 ServerApp] delete /hds/Untitled.ipynb
+[I 2024-05-06 13:46:30.266 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:46:38.372 YDocExtension] Processed 27 Y patches in one minute
+[I 2024-05-06 13:46:38.373 YDocExtension] Connected Y users: 6
+[I 2024-05-06 13:46:48.059 ServerApp] New terminal with automatic name: 1
+Task exception was never retrieved
+future: <Task finished name='Task-2358' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe7760d00
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:47:15.220 ServerApp] Deleting Y document from memory: json:notebook:1f82f531-b09f-4a77-8fde-10b0cd99ee2a
+[I 2024-05-06 13:47:15.220 ServerApp] Room json:notebook:1f82f531-b09f-4a77-8fde-10b0cd99ee2a deleted
+Task exception was never retrieved
+future: <Task finished name='Task-2101' coro=<YDocWebSocketHandler._clean_room() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py:300> exception=<ValidationError: "None is not of type 'string'">>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 326, in _clean_room
+    self._emit(LogLevel.INFO, "clean", "Room deleted.")
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 298, in _emit
+    self.event_logger.emit(schema_id=JUPYTER_COLLABORATION_EVENTS_URI, data=data)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_events/logger.py", line 358, in emit
+    self.schemas.validate_event(schema_id, modified_data)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_events/schema_registry.py", line 83, in validate_event
+    schema.validate(data)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_events/schema.py", line 159, in validate
+    self._validator.validate(data)
+  File "/usr/local/lib/python3.10/dist-packages/jsonschema/validators.py", line 435, in validate
+    raise error
+jsonschema.exceptions.ValidationError: None is not of type 'string'
+
+Failed validating 'type' in schema['properties']['path']:
+    {'description': 'File path.\n', 'type': 'string'}
+
+On instance['path']:
+    None
+[I 2024-05-06 13:47:33.372 ServerApp] Kernel shutdown: 23128ee7-0047-4e03-8642-0a8c68e0244b
+[I 2024-05-06 13:47:36.064 ServerApp] EOF on FD 32; stopping reading
+[I 2024-05-06 13:47:36.164 ServerApp] Terminal 1 closed
+[I 2024-05-06 13:47:38.374 YDocExtension] Processed 20 Y patches in one minute
+[I 2024-05-06 13:47:38.374 YDocExtension] Connected Y users: 7
+[I 2024-05-06 13:47:39.902 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-2692' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe7742620
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-3132' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe71d5900
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[W 2024-05-06 13:48:04.123 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-06 13:48:05.200 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-3376' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe7254490
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[I 2024-05-06 13:48:38.376 YDocExtension] Processed 20 Y patches in one minute
+[I 2024-05-06 13:48:38.376 YDocExtension] Connected Y users: 9
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-3822' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe71d5180
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-4121' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe71d6110
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[I 2024-05-06 13:49:38.377 YDocExtension] Processed 13 Y patches in one minute
+[I 2024-05-06 13:49:38.377 YDocExtension] Connected Y users: 11
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-4424' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe77615a0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[W 2024-05-06 13:49:59.123 ServerApp] 404 GET /api/v2/version (@209.141.40.117) 23.38ms referer=None
+[I 2024-05-06 13:50:27.834 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+[I 2024-05-06 13:50:27.946 ServerApp] Initializing room text:file:e24933e5-08b8-4747-acb2-3b923bd551a3
+[I 2024-05-06 13:50:28.081 ServerApp] Content in room text:file:e24933e5-08b8-4747-acb2-3b923bd551a3 loaded from file hds/E2E_VITS4_HDS.ipynb
+[I 2024-05-06 13:50:38.379 YDocExtension] Processed 17 Y patches in one minute
+[I 2024-05-06 13:50:38.379 YDocExtension] Connected Y users: 13
+[I 2024-05-06 13:50:53.823 ServerApp] Cleaning room: text:file:e24933e5-08b8-4747-acb2-3b923bd551a3
+[I 2024-05-06 13:50:57.038 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:51:38.380 YDocExtension] Processed 40 Y patches in one minute
+[I 2024-05-06 13:51:38.380 YDocExtension] Connected Y users: 14
+[I 2024-05-06 13:51:53.825 ServerApp] Deleting Y document from memory: text:file:e24933e5-08b8-4747-acb2-3b923bd551a3
+[I 2024-05-06 13:51:53.825 ServerApp] Room text:file:e24933e5-08b8-4747-acb2-3b923bd551a3 deleted
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:52:08.694 ServerApp] Request for Y document 'hds/configs/config_FulTo.yaml' with room ID: e960956e-accf-44c4-a496-2eec2c8bdcb6
+[I 2024-05-06 13:52:08.808 YDocExtension] Creating FileLoader for: hds/configs/config_FulTo.yaml
+[I 2024-05-06 13:52:08.823 YDocExtension] Watching file: hds/configs/config_FulTo.yaml
+[I 2024-05-06 13:52:08.825 ServerApp] Initializing room text:file:e960956e-accf-44c4-a496-2eec2c8bdcb6
+[I 2024-05-06 13:52:08.988 ServerApp] Content in room text:file:e960956e-accf-44c4-a496-2eec2c8bdcb6 loaded from the ystore SQLiteYStore
+Task exception was never retrieved
+future: <Task finished name='Task-5604' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72b3d90
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-5916' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72b1c30
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[I 2024-05-06 13:52:21.126 ServerApp] Cleaning room: text:file:e960956e-accf-44c4-a496-2eec2c8bdcb6
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:52:38.382 YDocExtension] Processed 23 Y patches in one minute
+[I 2024-05-06 13:52:38.382 YDocExtension] Connected Y users: 16
+Task exception was never retrieved
+future: <Task finished name='Task-6265' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72b39a0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-5227' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72b2050
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[I 2024-05-06 13:52:58.939 ServerApp] Request for Y document 'JupyterLab_jobs.txt' with room ID: 248883b4-22fd-4cac-b7fe-38b3b9e1d3ba
+[I 2024-05-06 13:52:59.105 YDocExtension] Creating FileLoader for: JupyterLab_jobs.txt
+[I 2024-05-06 13:52:59.120 YDocExtension] Watching file: JupyterLab_jobs.txt
+[I 2024-05-06 13:52:59.122 ServerApp] Initializing room text:file:248883b4-22fd-4cac-b7fe-38b3b9e1d3ba
+[I 2024-05-06 13:52:59.248 ServerApp] Content in room text:file:248883b4-22fd-4cac-b7fe-38b3b9e1d3ba loaded from the ystore SQLiteYStore
+[I 2024-05-06 13:52:59.287 ServerApp] Content in file JupyterLab_jobs.txt is out-of-sync with the ystore SQLiteYStore
+[I 2024-05-06 13:52:59.316 ServerApp] Content in room text:file:248883b4-22fd-4cac-b7fe-38b3b9e1d3ba loaded from file JupyterLab_jobs.txt
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:53:14.160 ServerApp] Cleaning room: text:file:248883b4-22fd-4cac-b7fe-38b3b9e1d3ba
+[I 2024-05-06 13:53:21.127 ServerApp] Deleting Y document from memory: text:file:e960956e-accf-44c4-a496-2eec2c8bdcb6
+[I 2024-05-06 13:53:21.127 ServerApp] Room text:file:e960956e-accf-44c4-a496-2eec2c8bdcb6 deleted
+[I 2024-05-06 13:53:21.172 ServerApp] Deleting file hds/configs/config_FulTo.yaml
+[I 2024-05-06 13:53:38.383 YDocExtension] Processed 27 Y patches in one minute
+[I 2024-05-06 13:53:38.383 YDocExtension] Connected Y users: 17
+[I 2024-05-06 13:53:52.899 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:54:14.162 ServerApp] Deleting Y document from memory: text:file:248883b4-22fd-4cac-b7fe-38b3b9e1d3ba
+[I 2024-05-06 13:54:14.162 ServerApp] Room text:file:248883b4-22fd-4cac-b7fe-38b3b9e1d3ba deleted
+[I 2024-05-06 13:54:14.207 ServerApp] Deleting file JupyterLab_jobs.txt
+[I 2024-05-06 13:54:38.384 YDocExtension] Processed 8 Y patches in one minute
+[I 2024-05-06 13:54:38.385 YDocExtension] Connected Y users: 17
+[I 2024-05-06 13:55:38.386 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 13:55:38.387 YDocExtension] Connected Y users: 17
+Task exception was never retrieved
+future: <Task finished name='Task-13417' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72c5cc0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[W 2024-05-06 13:56:23.946 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-06 13:56:24.267 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-13861' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72c5360
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[I 2024-05-06 13:56:25.210 ServerApp] Out-of-band changes. Overwriting the content in room json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3
+[W 2024-05-06 13:56:25.266 ServerApp] Notebook hds/E2E_VITS4_HDS.ipynb is not trusted
+[I 2024-05-06 13:56:38.388 YDocExtension] Processed 14 Y patches in one minute
+[I 2024-05-06 13:56:38.388 YDocExtension] Connected Y users: 19
+[I 2024-05-06 13:57:27.403 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:57:38.390 YDocExtension] Processed 11 Y patches in one minute
+[I 2024-05-06 13:57:38.390 YDocExtension] Connected Y users: 20
+[I 2024-05-06 13:57:59.891 ServerApp] Request for Y document 'hds/E2E_VITS4_HDS.ipynb' with room ID: e24933e5-08b8-4747-acb2-3b923bd551a3
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:58:38.391 YDocExtension] Processed 16 Y patches in one minute
+[I 2024-05-06 13:58:38.392 YDocExtension] Connected Y users: 22
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+Task exception was never retrieved
+future: <Task finished name='Task-15377' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe73a5420
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+thread '<unnamed>' panicked at /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yrs-0.17.2/src/block.rs:1090:29:
+Couldn't get item's parent
+[I 2024-05-06 13:59:38.393 YDocExtension] Processed 12 Y patches in one minute
+[I 2024-05-06 13:59:38.393 YDocExtension] Connected Y users: 24
+[E 2024-05-06 14:00:14.869 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:15.048 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:15.212 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:15.388 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:15.573 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+Task exception was never retrieved
+future: <Task finished name='Task-14762' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe7742710
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-15149' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72b15a0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-15566' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72b2a40
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+Task exception was never retrieved
+future: <Task finished name='Task-15755' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe73a4df0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+[E 2024-05-06 14:00:15.748 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:15.905 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:16.069 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:16.226 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:16.398 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:16.597 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:16.774 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:16.928 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:17.090 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:17.243 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:17.408 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:17.578 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:17.739 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:17.898 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:18.068 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:18.225 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:18.396 ServerApp] Uncaught exception GET /api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='GET', uri='/api/collaboration/room/json:notebook:e24933e5-08b8-4747-acb2-3b923bd551a3?sessionId=c437471f-188c-4401-b0ac-908a51596400', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/websocket.py", line 940, in _accept_connection
+        await open_result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 207, in open
+        self._emit(LogLevel.INFO, "initialize", "New client connected.")
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 290, in _emit
+        path = self._file_id_manager.get_path(file_id)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+        row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:20.619 ServerApp] Uncaught exception PUT /api/collaboration/session/hds%2FE2E_VITS4_HDS.ipynb?1714996837912 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='PUT', uri='/api/collaboration/session/hds%2FE2E_VITS4_HDS.ipynb?1714996837912', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[W 2024-05-06 14:00:20.622 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:00:20.623 ServerApp] {
+      "Host": "fer2.natur.cuni.cz:8888",
+      "Accept": "*/*",
+      "Referer": "http://fer2.natur.cuni.cz:8888/lab",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+[E 2024-05-06 14:00:20.623 ServerApp] 500 PUT /api/collaboration/session/hds%2FE2E_VITS4_HDS.ipynb?1714996837912 (fb601d4b767c4e268bf1b322cdb1a8ee@178.255.168.213) 25.14ms referer=http://fer2.natur.cuni.cz:8888/lab
+[I 2024-05-06 14:00:38.396 YDocExtension] Processed 13 Y patches in one minute
+[I 2024-05-06 14:00:38.397 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:01:38.402 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:01:38.403 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:02:38.454 YDocExtension] Processed 1 Y patches in one minute
+[I 2024-05-06 14:02:38.455 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:03:38.500 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:03:38.501 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:04:38.518 YDocExtension] Processed 6 Y patches in one minute
+[I 2024-05-06 14:04:38.518 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:05:38.579 YDocExtension] Processed 1 Y patches in one minute
+[I 2024-05-06 14:05:38.579 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:06:38.624 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:06:38.625 YDocExtension] Connected Y users: 46
+[E 2024-05-06 14:07:09.911 ServerApp] Uncaught exception PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997247221 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='PUT', uri='/api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997247221', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[W 2024-05-06 14:07:09.912 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:07:09.913 ServerApp] {
+      "Host": "fer2.natur.cuni.cz:8888",
+      "Accept": "*/*",
+      "Referer": "http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+[E 2024-05-06 14:07:09.913 ServerApp] 500 PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997247221 (fb601d4b767c4e268bf1b322cdb1a8ee@178.255.168.213) 18.70ms referer=http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds
+[I 2024-05-06 14:07:38.627 YDocExtension] Processed 14 Y patches in one minute
+[I 2024-05-06 14:07:38.627 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:08:38.628 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:08:38.628 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:09:38.630 YDocExtension] Processed 3 Y patches in one minute
+[I 2024-05-06 14:09:38.630 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:10:38.632 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:10:38.632 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:11:38.634 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:11:38.634 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:12:38.636 YDocExtension] Processed 3 Y patches in one minute
+[I 2024-05-06 14:12:38.636 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:13:38.640 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:13:38.641 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:14:38.647 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:14:38.647 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:15:38.652 YDocExtension] Processed 3 Y patches in one minute
+[I 2024-05-06 14:15:38.653 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:16:38.660 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:16:38.660 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:17:38.667 YDocExtension] Processed 3 Y patches in one minute
+[I 2024-05-06 14:17:38.667 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:18:38.674 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:18:38.674 YDocExtension] Connected Y users: 46
+[E 2024-05-06 14:18:50.108 ServerApp] Uncaught exception PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997947417 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='PUT', uri='/api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997947417', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[W 2024-05-06 14:18:50.109 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:18:50.110 ServerApp] {
+      "Host": "fer2.natur.cuni.cz:8888",
+      "Accept": "*/*",
+      "Referer": "http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+[E 2024-05-06 14:18:50.110 ServerApp] 500 PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997947417 (fb601d4b767c4e268bf1b322cdb1a8ee@178.255.168.213) 18.66ms referer=http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds
+[E 2024-05-06 14:19:21.043 ServerApp] Uncaught exception PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997978351 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='PUT', uri='/api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997978351', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[W 2024-05-06 14:19:21.044 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:19:21.045 ServerApp] {
+      "Host": "fer2.natur.cuni.cz:8888",
+      "Accept": "*/*",
+      "Referer": "http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+[E 2024-05-06 14:19:21.045 ServerApp] 500 PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714997978351 (fb601d4b767c4e268bf1b322cdb1a8ee@178.255.168.213) 18.23ms referer=http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds
+[I 2024-05-06 14:19:38.681 YDocExtension] Processed 11 Y patches in one minute
+[I 2024-05-06 14:19:38.682 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:20:38.693 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:20:38.694 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:21:38.740 YDocExtension] Processed 1 Y patches in one minute
+[I 2024-05-06 14:21:38.740 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:22:38.784 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:22:38.785 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:23:38.828 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:23:38.828 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:24:37.255 ServerApp] 302 GET / (@167.94.145.100) 0.93ms
+[I 2024-05-06 14:24:38.832 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:24:38.832 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:24:40.277 ServerApp] 302 GET / (@167.94.145.100) 0.59ms
+[I 2024-05-06 14:24:40.297 ServerApp] Malformed HTTP message from 167.94.145.100: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2024-05-06 14:24:43.316 LabApp] 302 GET /lab (@167.94.145.100) 1.05ms
+[I 2024-05-06 14:24:43.332 ServerApp] Malformed HTTP message from 167.94.145.100: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2024-05-06 14:24:46.385 ServerApp] Malformed HTTP message from 167.94.145.100: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2024-05-06 14:25:38.877 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:25:38.878 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:26:38.884 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:26:38.885 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:27:38.928 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:27:38.929 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:28:38.974 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:28:38.974 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:29:39.020 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:29:39.020 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:30:39.067 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:30:39.067 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:31:39.113 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:31:39.113 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:32:39.159 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:32:39.159 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:33:39.204 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:33:39.205 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:34:39.251 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:34:39.251 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:35:39.296 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:35:39.296 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:36:39.342 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:36:39.343 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:37:39.389 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:37:39.390 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:38:39.432 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:38:39.432 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:39:39.479 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:39:39.479 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:40:39.524 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:40:39.524 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:41:39.568 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:41:39.568 YDocExtension] Connected Y users: 46
+[I 2024-05-06 14:42:39.612 YDocExtension] Processed 4 Y patches in one minute
+[I 2024-05-06 14:42:39.612 YDocExtension] Connected Y users: 46
+[E 2024-05-06 14:43:10.968 ServerApp] Uncaught exception PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714999408278 (178.255.168.213)
+    HTTPServerRequest(protocol='http', host='fer2.natur.cuni.cz:8888', method='PUT', uri='/api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714999408278', version='HTTP/1.1', remote_ip='178.255.168.213')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[W 2024-05-06 14:43:10.968 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 361, in put
+        idx = file_id_manager.get_id(path)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 334, in get_id
+        row = self.con.execute("SELECT id FROM Files WHERE path = ?", (path,)).fetchone()
+    sqlite3.OperationalError: disk I/O error
+[E 2024-05-06 14:43:10.969 ServerApp] {
+      "Host": "fer2.natur.cuni.cz:8888",
+      "Accept": "*/*",
+      "Referer": "http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+[E 2024-05-06 14:43:10.969 ServerApp] 500 PUT /api/collaboration/session/GIT_repos%2FCoqui-TTS%2FTTS%2Fhds%2Fvits.py?1714999408278 (fb601d4b767c4e268bf1b322cdb1a8ee@178.255.168.213) 17.92ms referer=http://fer2.natur.cuni.cz:8888/lab/tree/RTC%3AGIT_repos/Coqui-TTS/TTS/hds
+[I 2024-05-06 14:43:39.624 YDocExtension] Processed 10 Y patches in one minute
+[I 2024-05-06 14:43:39.625 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:44:39.684 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:44:39.685 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:45:39.745 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:45:39.745 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:46:39.805 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:46:39.806 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:47:39.866 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:47:39.866 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:48:39.927 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:48:39.927 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:49:39.987 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:49:39.987 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:50:40.044 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:50:40.045 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:51:40.105 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:51:40.105 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:52:40.165 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:52:40.166 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:53:40.224 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:53:40.225 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:54:40.285 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:54:40.285 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:55:40.345 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:55:40.346 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:56:40.406 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:56:40.406 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:57:40.467 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:57:40.467 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:58:40.527 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:58:40.527 YDocExtension] Connected Y users: 45
+[I 2024-05-06 14:59:40.588 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 14:59:40.588 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:00:40.648 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:00:40.648 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:01:40.708 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:01:40.708 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:02:40.768 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:02:40.769 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:03:40.829 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:03:40.829 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:04:40.888 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:04:40.888 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:05:40.949 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:05:40.949 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:06:41.009 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:06:41.009 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:07:41.060 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:07:41.060 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:08:41.120 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:08:41.120 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:09:41.181 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:09:41.181 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:10:41.240 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:10:41.240 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:11:41.300 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:11:41.300 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:12:41.360 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:12:41.361 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:13:41.421 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:13:41.421 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:14:41.480 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:14:41.480 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:15:41.540 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:15:41.540 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:16:41.601 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:16:41.601 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:17:41.636 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:17:41.637 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:18:41.697 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:18:41.697 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:19:41.757 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:19:41.758 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:20:41.816 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:20:41.816 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:21:41.876 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:21:41.876 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:22:41.924 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:22:41.924 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:23:41.985 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:23:41.985 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:24:42.044 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:24:42.044 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:25:42.105 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:25:42.105 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:26:42.165 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:26:42.165 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:27:42.226 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:27:42.226 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:28:42.286 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:28:42.287 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:29:42.347 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:29:42.347 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:30:42.407 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:30:42.408 YDocExtension] Connected Y users: 45
+[E 2024-05-06 15:31:04.471 ServerApp] Uncaught exception in write_error
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1753, in _execute
+        raise HTTPError(405)
+    tornado.web.HTTPError: HTTP 405: Method Not Allowed
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1298, in send_error
+        self.write_error(status_code, **kwargs)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/base/handlers.py", line 719, in write_error
+        html = self.render_template("%s.html" % status_code, **ns)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/base/handlers.py", line 645, in render_template
+        ns.update(self.template_namespace)
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/base/handlers.py", line 655, in template_namespace
+        logged_in=self.logged_in,
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/base/handlers.py", line 197, in logged_in
+        user = self.current_user
+      File "/usr/local/lib/python3.10/dist-packages/tornado/web.py", line 1424, in current_user
+        self._current_user = self.get_current_user()
+      File "/usr/local/lib/python3.10/dist-packages/jupyter_server/base/handlers.py", line 176, in get_current_user
+        raise RuntimeError(msg)
+    RuntimeError: Calling `Template404.get_current_user()` directly is deprecated in jupyter-server 2.0. Use `self.current_user` instead (works in all versions).
+[W 2024-05-06 15:31:04.474 ServerApp] 405 CONNECT google.com:443 (@141.98.11.79) 3.77ms referer=None
+[I 2024-05-06 15:31:42.446 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:31:42.446 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:32:42.504 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:32:42.504 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:33:42.565 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:33:42.565 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:34:42.625 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:34:42.626 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:35:42.686 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:35:42.686 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:36:42.744 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:36:42.744 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:37:42.805 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:37:42.805 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:38:42.864 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:38:42.864 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:39:42.924 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:39:42.924 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:40:42.985 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:40:42.985 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:41:43.045 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:41:43.046 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:42:43.106 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:42:43.106 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:43:43.166 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:43:43.167 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:44:43.227 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:44:43.227 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:45:43.287 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:45:43.288 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:46:43.348 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:46:43.348 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:47:43.408 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:47:43.408 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:48:43.468 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:48:43.468 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:49:43.528 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:49:43.528 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:50:43.588 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:50:43.588 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:51:43.648 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:51:43.649 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:52:43.708 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:52:43.709 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:53:43.769 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:53:43.769 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:54:43.829 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:54:43.830 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:55:43.890 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:55:43.890 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:56:43.950 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:56:43.951 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:57:44.011 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:57:44.011 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:58:44.071 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:58:44.072 YDocExtension] Connected Y users: 45
+[I 2024-05-06 15:59:44.132 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 15:59:44.132 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:00:44.192 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:00:44.192 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:01:44.196 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:01:44.196 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:02:44.256 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:02:44.256 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:03:44.317 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:03:44.317 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:04:44.378 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:04:44.378 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:05:44.438 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:05:44.438 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:06:44.496 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:06:44.496 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:07:44.557 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:07:44.557 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:08:44.616 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:08:44.616 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:09:44.676 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:09:44.676 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:10:44.736 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:10:44.736 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:11:44.797 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:11:44.797 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:12:44.835 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:12:44.836 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:13:44.896 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:13:44.896 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:14:44.957 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:14:44.957 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:15:45.016 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:15:45.016 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:16:45.076 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:16:45.076 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:17:45.136 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:17:45.136 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:18:45.196 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:18:45.196 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:19:45.257 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:19:45.257 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:20:45.317 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:20:45.317 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:21:45.376 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:21:45.376 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:22:45.436 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:22:45.436 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:23:45.496 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:23:45.496 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:24:45.557 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:24:45.557 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:25:45.604 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:25:45.604 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:26:45.664 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:26:45.664 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:27:45.724 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:27:45.724 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:28:45.784 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:28:45.785 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:29:45.844 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:29:45.844 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:30:45.905 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:30:45.905 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:31:45.964 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:31:45.964 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:32:46.024 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:32:46.024 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:33:46.085 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:33:46.085 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:34:46.145 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:34:46.145 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:35:46.206 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:35:46.206 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:36:46.265 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:36:46.265 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:37:46.324 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:37:46.324 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:38:46.384 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:38:46.384 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:39:46.444 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:39:46.444 YDocExtension] Connected Y users: 45
+[I 2024-05-06 16:40:46.504 YDocExtension] Processed 0 Y patches in one minute
+[I 2024-05-06 16:40:46.504 YDocExtension] Connected Y users: 45
+=>> PBS: job killed: walltime 10810 exceeded limit 10800
+[C 2024-05-06 16:41:07.435 ServerApp] received signal 15, stopping
+[I 2024-05-06 16:41:07.436 ServerApp] Shutting down 8 extensions
+[I 2024-05-06 16:41:07.437 YDocExtension] Deleting all rooms.
+Task exception was never retrieved
+future: <Task finished name='Task-18362' coro=<FileLoaderMapping.clear() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py:268> exception=OperationalError('disk I/O error')>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 190, in _watch_file
+    await self.notify()
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 201, in notify
+    path = self.path
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 57, in path
+    path = self._file_id_manager.get_path(self.file_id)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+    row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+sqlite3.OperationalError: disk I/O error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 275, in clear
+    await asyncio.gather(*tasks)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 78, in clean
+    await self._watcher
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 192, in _watch_file
+    self._log.error(f"Error watching file: {self.path}\n{e!r}", exc_info=e)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/loaders.py", line 57, in path
+    path = self._file_id_manager.get_path(self.file_id)
+  File "/usr/local/lib/python3.10/dist-packages/jupyter_server_fileid/manager.py", line 338, in get_path
+    row = self.con.execute("SELECT path FROM Files WHERE id = ?", (id,)).fetchone()
+sqlite3.OperationalError: disk I/O error
+Task exception was never retrieved
+future: <Task finished name='Task-12752' coro=<JupyterWebsocketServer.serve() done, defined at /usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py:118> exception=BaseExceptionGroup('unhandled errors in a TaskGroup', [BaseExceptionGroup('unhandled errors in a TaskGroup', [PanicException("Couldn't get item's parent")])])>
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/websocketserver.py", line 123, in serve
+  |     await super().serve(websocket)
+  |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 143, in serve
+  |     async with create_task_group() as tg:
+  |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 198, in serve
+    |     async for message in websocket:
+    |   File "/usr/local/lib/python3.10/dist-packages/jupyter_collaboration/handlers.py", line 151, in __anext__
+    |     message = await self._message_queue.get()
+    |   File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    |     await getter
+    | asyncio.exceptions.CancelledError: Cancelled by cancel scope 146fe72c53f0
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Exception Group Traceback (most recent call last):
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/websocket_server.py", line 149, in _serve
+    |     await room.serve(websocket)
+    |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yroom.py", line 194, in serve
+    |     async with create_task_group() as tg:
+    |   File "/usr/local/lib/python3.10/dist-packages/anyio/_backends/_asyncio.py", line 678, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.BaseExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt_websocket/yutils.py", line 118, in process_sync_message
+      |     update = ydoc.get_update(state)
+      |   File "/usr/local/lib/python3.10/dist-packages/pycrdt/doc.py", line 49, in get_update
+      |     return self._doc.get_update(state)
+      | pyo3_runtime.PanicException: Couldn't get item's parent
+      +------------------------------------
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...
+1444715.pbs-m1.metacentrum.cz singularity terminated on fer2.natur.cuni.cz
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

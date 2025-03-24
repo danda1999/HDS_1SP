@@ -1,0 +1,287 @@
+{
+    "output_path": "models",
+    "logger_uri": null,
+    "run_name": "VITS4_MyVoice.ft-SPT-MGW-m10f10.ph-redu.p2b0.ddp.kl5",
+    "project_name": "TTS",
+    "run_description": "MyVoice fine-tuned on SPT-MGW-m10f10, 24kHz, reduced EPA phonemes, 2 pauses, 0 breath, DDP, kl_loss_alpha=5, VITS with HiFiGAN v4, tf23.12, coqui-tts_hds, trainer0.0.36_artic-0.1",
+    "print_step": 100,
+    "plot_step": 100,
+    "model_param_stats": false,
+    "wandb_entity": null,
+    "dashboard_logger": "tensorboard",
+    "save_on_interrupt": true,
+    "log_model_step": null,
+    "log_model_epoch": null,
+    "save_step": 5000,
+    "save_epoch": 10,
+    "save_n_checkpoints": 3,
+    "save_checkpoints": true,
+    "save_all_best": false,
+    "save_best_after": 10000,
+    "target_loss": null,
+    "print_eval": true,
+    "test_delay_epochs": -1,
+    "run_eval": true,
+    "run_eval_steps": null,
+    "test_epoch_step": 10,
+    "save_test_files": true,
+    "log_test_files": false,
+    "stop_after_steps": false,
+    "steps": 1000000,
+    "use_total_epochs": true,
+    "save_on_epochs": true,
+    "use_epoch_in_path": true,
+    "distributed_backend": "gloo",
+    "distributed_url": "tcp://localhost:54321",
+    "mixed_precision": true,
+    "precision": "fp16",
+    "epochs": 1000,
+    "batch_size": 32,
+    "eval_batch_size": 16,
+    "grad_clip": [
+        5,
+        5
+    ],
+    "scheduler_after_epoch": true,
+    "lr": 0.0005,
+    "optimizer": "AdamW",
+    "optimizer_params": {
+        "betas": [
+            0.8,
+            0.99
+        ],
+        "eps": 1e-09,
+        "weight_decay": 0.01
+    },
+    "lr_scheduler": null,
+    "lr_scheduler_params": null,
+    "use_grad_scaler": false,
+    "allow_tf32": false,
+    "cudnn_enable": true,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "training_seed": 54321,
+    "model": "vits",
+    "num_loader_workers": 2,
+    "num_eval_loader_workers": 2,
+    "use_noise_augment": false,
+    "audio": {
+        "fft_size": 1024,
+        "sample_rate": 24000,
+        "win_length": 1024,
+        "hop_length": 256,
+        "num_mels": 80,
+        "mel_fmin": 0,
+        "mel_fmax": 12000
+    },
+    "use_phonemes": false,
+    "phonemizer": null,
+    "phoneme_language": "cs-cz",
+    "compute_input_seq_cache": true,
+    "text_cleaner": "no_cleaners",
+    "enable_eos_bos_chars": false,
+    "test_sentences_file": null,
+    "phoneme_cache_path": "phoneme_cache",
+    "characters": {
+        "characters_class": "TTS.tts.utils.text.characters.Graphemes",
+        "vocab_dict": null,
+        "pad": "<PAD>",
+        "eos": "<EOS>",
+        "bos": "<BOS>",
+        "blank": "<BLNK>",
+        "characters": "ACDEIJOPRSTUZabcdefghijklmnopqrstuvxz@#$*%\u00c7",
+        "punctuations": "!,-.:;\u2013/()?\u02c8\u201e\u201c\u201d\"\u201a\u2018\u2019\u02cc\u02d0\u2026 ",
+        "phonemes": null,
+        "is_unique": true,
+        "is_sorted": true
+    },
+    "add_blank": false,
+    "batch_group_size": 5,
+    "loss_masking": null,
+    "min_audio_len": 24000,
+    "max_audio_len": 360000,
+    "min_text_len": 5,
+    "max_text_len": 999,
+    "compute_f0": false,
+    "compute_energy": false,
+    "compute_linear_spec": true,
+    "precompute_num_workers": 0,
+    "start_by_longest": false,
+    "shuffle": false,
+    "drop_last": false,
+    "datasets": [
+        {
+            "formatter": "artic",
+            "dataset_name": "",
+            "path": "/scratch.ssd/dcifka20/job_1688699.pbs-m1.metacentrum.cz/FulTo.cs-CZ.m",
+            "meta_file_train": "train.ph-redu.epa.csv",
+            "ignored_speakers": null,
+            "language": "cs-CZ",
+            "phonemizer": "",
+            "meta_file_val": null,
+            "meta_file_attn_mask": "",
+            "meta_file_dur": ""
+        }
+    ],
+    "test_sentences": [
+        [
+            "$ pRIliZ ZluTouCkI kUJ Upjel DAbelskE Odi. $"
+        ],
+        [
+            "$ strC prst skrs krk, # nebo Ti ho tam strCIm sAm. $"
+        ],
+        [
+            "$ tohle je pokus, # snat to vijde. $"
+        ],
+        [
+            "$ omlouvAm se, # tohle se stAvA maksimAlJe jednou za deset let. $"
+        ],
+        [
+            "$ tRista tRicet tRi stRIbrnIx stRIkaCek stRIkalo pRes tRista tRicet tRi stRIbrnIx stRex. $"
+        ],
+        [
+            "$ pRAl bix si, # abix bil uZ doma. $"
+        ],
+        [
+            "$ pUjdeme zItra do kina? $"
+        ],
+        [
+            "$ proC to DelAS? $"
+        ]
+    ],
+    "eval_split_max_size": 256,
+    "eval_split_size": 0.01,
+    "use_speaker_weighted_sampler": false,
+    "speaker_weighted_sampler_alpha": 1.0,
+    "use_language_weighted_sampler": false,
+    "language_weighted_sampler_alpha": 1.0,
+    "use_length_weighted_sampler": false,
+    "length_weighted_sampler_alpha": 1.0,
+    "model_args": {
+        "num_chars": 70,
+        "out_channels": 513,
+        "spec_segment_size": 32,
+        "hidden_channels": 192,
+        "hidden_channels_ffn_text_encoder": 768,
+        "num_heads_text_encoder": 2,
+        "num_layers_text_encoder": 6,
+        "kernel_size_text_encoder": 3,
+        "dropout_p_text_encoder": 0.1,
+        "dropout_p_duration_predictor": 0.5,
+        "kernel_size_posterior_encoder": 5,
+        "dilation_rate_posterior_encoder": 1,
+        "num_layers_posterior_encoder": 16,
+        "kernel_size_flow": 5,
+        "dilation_rate_flow": 1,
+        "num_layers_flow": 4,
+        "resblock_type_decoder": "2",
+        "resblock_kernel_sizes_decoder": [
+            3,
+            5,
+            7
+        ],
+        "resblock_dilation_sizes_decoder": [
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                3,
+                12
+            ]
+        ],
+        "upsample_rates_decoder": [
+            8,
+            8,
+            4
+        ],
+        "upsample_initial_channel_decoder": 128,
+        "upsample_kernel_sizes_decoder": [
+            16,
+            16,
+            8
+        ],
+        "periods_multi_period_discriminator": [
+            2,
+            3,
+            5,
+            7,
+            11
+        ],
+        "use_sdp": false,
+        "noise_scale": 1.0,
+        "inference_noise_scale": 0.667,
+        "length_scale": 1,
+        "noise_scale_dp": 1.0,
+        "inference_noise_scale_dp": 0.8,
+        "max_inference_len": null,
+        "init_discriminator": true,
+        "use_spectral_norm_discriminator": false,
+        "use_speaker_embedding": false,
+        "num_speakers": 0,
+        "speakers_file": null,
+        "d_vector_file": null,
+        "speaker_embedding_channels": 256,
+        "use_d_vector_file": false,
+        "d_vector_dim": null,
+        "detach_dp_input": true,
+        "use_language_embedding": false,
+        "embedded_language_dim": 4,
+        "num_languages": 0,
+        "language_ids_file": null,
+        "use_speaker_encoder_as_loss": false,
+        "speaker_encoder_config_path": null,
+        "speaker_encoder_model_path": null,
+        "condition_dp_on_speaker": true,
+        "freeze_encoder": false,
+        "freeze_DP": false,
+        "freeze_PE": false,
+        "freeze_flow_decoder": false,
+        "freeze_waveform_decoder": false,
+        "encoder_sample_rate": null,
+        "interpolate_z": true,
+        "reinit_DP": false,
+        "reinit_text_encoder": false
+    },
+    "lr_gen": 0.0001,
+    "lr_disc": 0.0001,
+    "lr_scheduler_gen": "ExponentialLR",
+    "lr_scheduler_gen_params": {
+        "gamma": 0.999875,
+        "last_epoch": -1
+    },
+    "lr_scheduler_disc": "ExponentialLR",
+    "lr_scheduler_disc_params": {
+        "gamma": 0.999875,
+        "last_epoch": -1
+    },
+    "kl_loss_alpha": 5.0,
+    "disc_loss_alpha": 1.0,
+    "gen_loss_alpha": 1.0,
+    "feat_loss_alpha": 1.0,
+    "mel_loss_alpha": 45.0,
+    "dur_loss_alpha": 1.0,
+    "speaker_encoder_loss_alpha": 9.0,
+    "return_wav": true,
+    "use_weighted_sampler": false,
+    "weighted_sampler_attrs": {
+        "speaker_name": 1.0
+    },
+    "weighted_sampler_multipliers": {},
+    "r": 1,
+    "num_speakers": 0,
+    "use_speaker_embedding": false,
+    "speakers_file": null,
+    "speaker_embedding_channels": 256,
+    "language_ids_file": null,
+    "use_language_embedding": false,
+    "use_d_vector_file": false,
+    "d_vector_file": null,
+    "d_vector_dim": null,
+    "restore_path": "/storage/plzen4-ntis/projects/korpusy-public/vyuka/HDS2024/SP2/model.pth",
+    "github_branch": "inside_docker"
+}

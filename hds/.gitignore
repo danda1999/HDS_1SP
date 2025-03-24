@@ -1,0 +1,20 @@
+# Model files
+*.pth
+*.pth.tar
+*.out.*.ipynb
+ipykernel_launcher.py
+trainer_*_log.txt
+output_notebooks/
+tmp_files/
+
+# Tensorboard
+tensorboard/
+events.out.*
+
+.ipynb_checkpoints/
+JupyterLabJob.e*
+JupyterLabJob.o*
+
+# Media files
+*.wav
+*.png
