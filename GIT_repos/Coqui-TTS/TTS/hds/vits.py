@@ -86,20 +86,6 @@ class VitsHDS(Vits):
             return_dict = {}
             z_mask = sequence_mask(batch["spec_lens"]).float()
             
-            mel_slice_hat = wav_to_mel(y=outputs['model_outputs'].float(),
-                n_fft=self.config.audio.fft_size,
-                sample_rate=self.config.audio.sample_rate,
-                num_mels=self.config.audio.num_mels,
-                hop_length=self.config.audio.hop_length,
-                win_length=self.config.audio.win_length,
-                fmin=self.config.audio.mel_fmin,
-                fmax=self.config.audio.mel_fmax,
-                center=False,
-            )
-            
-            mel = batch["mel"]
-            mel_slice = segment(mel.float(), outputs["slice_ids"], self.spec_segment_size, pad_short=True)
-            
             # výpočet KL loss
             loss_kl = (
                 self.kl_loss(z_p=outputs['z_p'], logs_q=outputs['logs_q'], m_p=outputs['m_p'], logs_p=outputs['logs_p'], z_mask=z_mask.unsqueeze(1))
@@ -115,7 +101,8 @@ class VitsHDS(Vits):
             loss_gen = self.generator_loss(scores_fake=scores_disc_fake)[0] * self.config.gen_loss_alpha
             
             # Výpočet mel loss
-            loss_mel = torch.nn.functional.l1_loss(mel_slice, mel_slice_hat) * self.config.mel_loss_alpha
+            mel = segment(batch["mel"].float(), outputs["slice_ids"], self.spec_segment_size, pad_short=True)
+            loss_mel = self.mel_loss(mel, outputs['model_outputs'].float()) * self.config.mel_loss_alpha
 
             loss_dur = self.duration_loss(output["dur"], output["token_emb"], output["token_mask"] * self.config.dur_loss_alpha
             loss = loss_kl + loss_feat + loss_mel + loss_gen + loss_dur
@@ -198,4 +185,20 @@ class VitsHDS(Vits):
         kl = torch.sum(kl * z_mask)
         l = kl / torch.sum(z_mask)
         return l
+
+    def mel_loss(self, mel_gt, out_pred):
+        mel_pred = wav_to_mel(
+            y=out_pred,
+            n_fft=self.config.audio.fft_size,
+            sample_rate=self.config.audio.sample_rate,
+            num_mels=self.config.audio.num_mels,
+            hop_length=self.config.audio.hop_length,
+            win_length=self.config.audio.win_length,
+            fmin=self.config.audio.mel_fmin,
+            fmax=self.config.audio.mel_fmax,
+            center=False,
+        )
+
+        l1 = torch.nn.functional.l1_loss
+        return l1(mel_gt, mel_pred)
 
