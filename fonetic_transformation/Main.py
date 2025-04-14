@@ -17,11 +17,22 @@ NP = ["k", "s", "v", "z"]
 
 #Funkce pro nacteni dat z textoveho souboru do seznamu
 #Vstupnim parametrem je nazev souboru/cesta k souboru
-def data_loader(file_name:str) -> list:
-    
+def data_loader(file_name:str, split: bool) -> tuple[list, list]:
     f = open(file_name, "r", encoding="utf-8")
+
+    lines = f.readlines()
+    files = None
+    texts = []
+    if split:
+        files = []
+        for line in lines:
+            file, text = line.split("|")
+            files.append(file)
+            texts.append(text)
+    else:
+        texts = lines
     
-    return f.readlines()
+    return files, texts
 
 #Predzpracovani textu
 #Vstupem jsou nactene texty ze souboru
@@ -172,7 +183,7 @@ def check_rulles(p_lines: list) -> list:
         
     return sentence_f_l
         
-def final_preprocesing_and_write(sentence_f_l: list, outputFile: str):      
+def final_preprocesing_and_write(files: list, sentence_f_l: list, outputFile: str):
     list_sentenc = []
     
         
@@ -187,7 +198,7 @@ def final_preprocesing_and_write(sentence_f_l: list, outputFile: str):
     
     f = open(outputFile, "a")
     
-    for x in list_sentenc:
+    for i, x in enumerate(list_sentenc):
         x = x.replace("ý", "í")
         x = x.replace("y", "i")
         x = x.replace("ů", "ú")
@@ -208,15 +219,22 @@ def final_preprocesing_and_write(sentence_f_l: list, outputFile: str):
         x = x.replace("shora", "zhora")
         x = x.replace("shůry,", "zhůry")
         x = x.replace("shluk", "zhluk")
-        
+
+        if files is not None:
+            f.write(files[i] + "|")
         f.write(x)
 
 
 if __name__=='__main__':
     
     arguments = sys.argv
+
+    split = False
+    if len(arguments) == 6 and arguments[5] == "-split":
+        # split file and text
+        split = True
         
-    lines = data_loader(arguments[2])
+    files, lines = data_loader(arguments[2], split)
     p_lines = preprocesing(lines)
     sentence_f_l = check_rulles(p_lines)
-    final_preprocesing_and_write(sentence_f_l, arguments[4])
+    final_preprocesing_and_write(files, sentence_f_l, arguments[4])
