@@ -105,7 +105,7 @@ class VitsHDS(Vits):
             out_pred_seg = segment(outputs["model_outputs"].float(), outputs["slice_ids"], self.spec_segment_size, pad_short=True)
             loss_mel = self.mel_loss(mel, out_pred_seg) * self.config.mel_loss_alpha
 
-            loss_dur = self.duration_loss(output["dur"], output["token_emb"], output["token_mask"] * self.config.dur_loss_alpha
+            loss_dur = self.duration_loss(output["dur"], output["token_emb"], output["token_mask"]) * self.config.dur_loss_alpha
             loss = loss_kl + loss_feat + loss_mel + loss_gen + loss_dur
 
             #Slovník výsledků pro jednotlivé loss funkce a celkovou loss.
