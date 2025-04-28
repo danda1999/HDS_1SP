@@ -115,7 +115,7 @@ class VitsHDS(Vits):
                 fmax=self.config.audio.mel_fmax,
                 center=False,
             )
-            mel_pred = segment(mel_pred, outputs["slice_ids"], self.spec_segment_size, pad_short=True)
+            #mel_pred = segment(mel_pred, outputs["slice_ids"], self.spec_segment_size, pad_short=True)
             loss_mel = self.mel_loss(mel, mel_pred) * self.config.mel_loss_alpha
 
             loss_dur = self.duration_loss(outputs["dur"], outputs["token_emb"],
