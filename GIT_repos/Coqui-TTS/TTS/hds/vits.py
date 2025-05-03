@@ -81,7 +81,7 @@ class VitsHDS(Vits):
             scores_disc_fake, feats_disc_fake, scores_disc_real, feats_disc_real = self.disc(speech_gener, speech_real)
 
             # Detach the real features, as we do not want update weights of the discriminator
-            feats_disc_real = feats_disc_real.detach()
+            feats_disc_real = [feat.detach() for feat in feats_disc_real]
 
             return_dict = {}
             z_mask = sequence_mask(batch["spec_lens"]).float()
