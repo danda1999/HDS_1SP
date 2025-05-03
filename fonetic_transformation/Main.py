@@ -214,6 +214,7 @@ def final_preprocesing_and_write(files: list, sentence_f_l: list, outputFile: st
 
         for old, new in FIX:
             x = x.replace(old, new)
+        x = x.replace(" #  ", " # ")
         
         x = x.replace("shora", "zhora")
         x = x.replace("shůry,", "zhůry")
