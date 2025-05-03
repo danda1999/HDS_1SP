@@ -41,22 +41,22 @@ class VitsHDS(Vits):
 
             # Synthesize
             # NOTE: may be cached for the future use
-            outputs = self.forward(batch["tokens"], batch["token_lens"], batch["spec"], batch["spec_lens"], batch["waveform"])
+            outputs = self.forward(batch["tokens"], batch["token_lens"], batch["spec"], batch["spec_lens"],
+                                   batch["waveform"])
 
             # Generated and real speech segments
             speech_gener = outputs['model_outputs']
             speech_real = outputs['waveform_seg']
 
-            # Detach the generated speech, as we do not want update weights of the generator
-            speech_gener = speech_gener.detach()
-
             # Use discriminator
-            scores_disc_fake, _, scores_disc_real, _ = self.disc(speech_gener, speech_real)
+            # Detach the generated speech, as we do not want update weights of the generator
+            scores_disc_fake, _, scores_disc_real, _ = self.disc(speech_gener.detach(), speech_real)
 
             # Výpočet diskriminator loss funkce
             return_dict = {}
             loss = 0.0
-            loss_disc, loss_disc_real, _ = self.discriminator_loss(scores_real=scores_disc_real, scores_fake=scores_disc_fake)
+            loss_disc, loss_disc_real, _ = self.discriminator_loss(scores_real=scores_disc_real,
+                                                                   scores_fake=scores_disc_fake)
             return_dict["loss_disc"] = loss_disc * self.config.disc_loss_alpha
             loss = loss + return_dict["loss_disc"]
             return_dict["loss"] = loss
@@ -66,31 +66,38 @@ class VitsHDS(Vits):
                 return_dict[f"loss_disc_real_{i}"] = ldr
             return (outputs, return_dict)
 
+
+
         # Generator
         else:
 
             print('Volám generátor pro výpočet loss funkcí.')
 
             # Synthesize
-            outputs = self.forward(batch["tokens"], batch["token_lens"], batch["spec"], batch["spec_lens"], batch["waveform"])
+            outputs = self.forward(batch["tokens"], batch["token_lens"], batch["spec"], batch["spec_lens"],
+                                   batch["waveform"])
 
             # Generated and real speech segments
             speech_gener = outputs['model_outputs']
             speech_real = outputs['waveform_seg']
 
-            scores_disc_fake, feats_disc_fake, scores_disc_real, feats_disc_real = self.disc(speech_gener, speech_real)
-
-            # Detach the real features, as we do not want update weights of the discriminator
-            feats_disc_real = feats_disc_real.detach()
+            scores_disc_fake, feats_disc_fake, scores_disc_real, feats_disc_real = self.disc(speech_gener.detach(), speech_real)
 
             return_dict = {}
             z_mask = sequence_mask(batch["spec_lens"]).float()
 
             # výpočet KL loss
-            loss_kl = self.kl_loss(z_p=outputs['z_p'], logs_q=outputs['logs_q'], m_p=outputs['m_p'], logs_p=outputs['logs_p'], z_mask=z_mask.unsqueeze(1)) * self.config.kl_loss_alpha
+            loss_kl = (
+                    self.kl_loss(z_p=outputs['z_p'], logs_q=outputs['logs_q'], m_p=outputs['m_p'],
+                                 logs_p=outputs['logs_p'], z_mask=z_mask.unsqueeze(1))
+                    * self.config.kl_loss_alpha
+            )
 
             # Výpočet příznakové loss funkce
-            loss_feat = self.feature_loss(feats_real=feats_disc_real, feats_generated=feats_disc_fake) * self.config.feat_loss_alpha
+            loss_feat = (
+                    self.feature_loss(feats_real=feats_disc_real,
+                                      feats_generated=feats_disc_fake) * self.config.feat_loss_alpha
+            )
 
             # Výpočet generator loss
             loss_gen = self.generator_loss(scores_fake=scores_disc_fake)[0] * self.config.gen_loss_alpha
@@ -108,9 +115,11 @@ class VitsHDS(Vits):
                 fmax=self.config.audio.mel_fmax,
                 center=False,
             )
+            #mel_pred = segment(mel_pred, outputs["slice_ids"], self.spec_segment_size, pad_short=True)
             loss_mel = self.mel_loss(mel, mel_pred) * self.config.mel_loss_alpha
 
-            loss_dur = self.duration_loss(outputs["dur"], outputs["token_emb"].detach(), outputs["token_mask"]) * self.config.dur_loss_alpha
+            loss_dur = self.duration_loss(outputs["dur"], outputs["token_emb"].detach(),
+                                          outputs["token_mask"]) * self.config.dur_loss_alpha
             loss = loss_kl + loss_feat + loss_mel + loss_gen + loss_dur
 
             # Slovník výsledků pro jednotlivé loss funkce a celkovou loss.
@@ -145,7 +154,7 @@ class VitsHDS(Vits):
         loss = 0
         for dr, dg in zip(feats_real, feats_generated):
             for rl, gl in zip(dr, dg):
-                rl = rl.float()
+                rl = rl.float().detach()
                 gl = gl.float()
                 loss += torch.mean(torch.abs(rl - gl))
         return loss * 2
